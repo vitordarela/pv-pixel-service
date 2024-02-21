@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcStorageClient";
+
+package storage;
+
+service Storage {
+  rpc StoreData (DataRequest) returns (DataResponse);
+}
+
+message DataRequest {
+  string referer = 1;
+  string ipAddress = 2;
+  string userAgent = 3;
+}
+
+message DataResponse {
+  string message = 1;
+}
