@@ -1,6 +1,7 @@
 ﻿namespace PvPixelService.Services.Tracking
 {
     using GrpcStorageClient;
+    using Microsoft.Extensions.Logging;
     using PvPixelService.DataGateway.Grpc.Storage;
 
     public class TrackingService : ITrackingService
