@@ -14,7 +14,7 @@ builder.Services.AddScoped<ITrackingService, TrackingService>();
 
 var app = builder.Build();
 
-app.MapGet("/track", async (HttpContext context, ITrackingService trackingService, ILogger<Program> logger) =>
+app.MapGet("/track", async (HttpContext context, ILogger <Program> logger, ITrackingService trackingService) =>
 {
     var referer = context.Request.Headers["Referer"].ToString();
     var userAgent = context.Request.Headers["User-Agent"].ToString();
