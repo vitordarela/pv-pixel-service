@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.0 - Presentation", "1.0 -
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EFD1A036-488E-40C9-A4FB-CCB9AD5EBA4A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentation.Api.Tests", "Presentation.Api.Tests\Presentation.Api.Tests\Presentation.Api.Tests.csproj", "{69D68C4E-63FB-467C-ACA9-3CC3FBAB0DC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentation.Api.Tests", "Presentation.Api.Tests\Presentation.Api.Tests.csproj", "{69D68C4E-63FB-467C-ACA9-3CC3FBAB0DC2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - Application", "1.1 - Application", "{8A73F880-9F13-4F17-9623-211B6EF97652}"
 EndProject
